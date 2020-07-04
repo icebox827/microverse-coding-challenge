@@ -38,7 +38,17 @@
     transition: margin-left .5s;
     padding: 20px;
   }
-  
+  #main-doc {
+     margin-left: 30%;
+     margin-top: 50px;
+  }
+  section header{
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+  }
+  code{
+    display: block;
+  }
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     #navbar {padding-top: 15px;}
