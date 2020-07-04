@@ -10,7 +10,7 @@
     transition: 0.5s; 
   }
   /* The navigation menu links */
-.sidenav a {
+#navbar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -20,12 +20,12 @@
   }
   
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+  #navbar a:hover {
     color: #f1f1f1;
   }
   
   /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+  #navbar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -41,6 +41,6 @@
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
   }
